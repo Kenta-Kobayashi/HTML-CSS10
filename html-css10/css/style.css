@@ -1,0 +1,51 @@
+body{
+width: 400px;
+}
+
+.clearfix:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.red{
+	background: #ff0000;
+	height:100px;
+}
+
+.green{
+	background: #00ff51;
+	height:250px;
+	width:150px;
+	float:left;
+}
+
+.pink{
+	background: #ff9e6b;
+	width:100px;
+	height:150px;
+	float:right;
+}
+
+.purple{
+	background: #cc00db;
+	height:50px;
+}
+
+.blue{
+	background: #0093b7;
+	height:100px;
+}
+
+.blown{
+	background: #8e2727;
+	height:100px;
+	width:250px;
+	float:right;
+}
+
+.yellow{
+	background: #fff700;
+	height:100px;
+}
+
