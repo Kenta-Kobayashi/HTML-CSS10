@@ -2,7 +2,7 @@ body{
 width: 400px;
 }
 
-.clearfix:after {
+.clearfix::after {
 	content:"";
 	display:block;
 	clear:both;
@@ -24,24 +24,31 @@ width: 400px;
 	background: #ff9e6b;
 	width:100px;
 	height:150px;
-	float:right;
+	float:left;
+}
+
+.content{
+	float:left;
 }
 
 .purple{
 	background: #cc00db;
 	height:50px;
+	width:150px;
 }
 
 .blue{
 	background: #0093b7;
 	height:100px;
+	width:150px;
+
 }
 
 .blown{
 	background: #8e2727;
 	height:100px;
 	width:250px;
-	float:right;
+	float:left;
 }
 
 .yellow{
