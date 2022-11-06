@@ -1,38 +1,44 @@
-body{
-width: 400px;
-}
 
-.clearfix::after {
+.clearfix::after{
 	content:"";
 	display:block;
 	clear:both;
 }
 
-.content1{
+.contents2{
 	float:left;
 }
 
-.content2{
-	width: 250px;
+.sub{
 	float:left;
+	width: 250px;
 }
 
 .red{
-	background: #ff0000;
+	background:#ff0000;
 	height:100px;
+	width:400px;
 }
 
 .green{
-	background: #00ff51;
+	background:#00ff51;
 	height:250px;
 	width:150px;
+	float:left;
 }
 
-.pink{
-	background: #ff9e6b;
-	height:150px;
-	width:100px;
-	float:right;
+.contents1{
+	width:250px;
+	float:left;
+}
+
+.contents2{
+	width:150px;
+	float:left;
+}
+
+.sub{
+	float:left;
 }
 
 .purple{
@@ -47,7 +53,14 @@ width: 400px;
 	width:150px;
 }
 
-.blown{
+.pink{
+	background: #ff9e6b;
+	height:150px;
+	width:100px;
+	float:left;
+}
+
+.brown{
 	background: #8e2727;
 	height:100px;
 	width:250px;
@@ -56,5 +69,6 @@ width: 400px;
 .yellow{
 	background: #fff700;
 	height:100px;
+	width:400px;
 }
 
