@@ -5,15 +5,6 @@
 	clear:both;
 }
 
-.contents2{
-	float:left;
-}
-
-.sub{
-	float:left;
-	width: 250px;
-}
-
 .red{
 	background:#ff0000;
 	height:100px;
@@ -28,16 +19,11 @@
 }
 
 .contents1{
-	width:250px;
 	float:left;
 }
 
 .contents2{
 	width:150px;
-	float:left;
-}
-
-.sub{
 	float:left;
 }
 
